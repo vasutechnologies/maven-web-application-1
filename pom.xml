@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Nexus Repository</name>
-	      <url>http://65.2.74.4:8085/repository/flipkart-release/</url>
+	      <url>http://65.0.179.156:8085/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nexus Repository </name>
-	      <url>http://65.2.74.4:8085/repository/flipkart-snapshot/</url>
+	      <url>http://65.0.179.156:8085/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
