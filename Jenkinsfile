@@ -1,6 +1,7 @@
 node
 {
  def mavenHome = tool name: "maven3.8.5"
+ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
  stage('CheckoutCode')
   {
       git branch: 'development', credentialsId: 'ba5d4ca8-36ba-445a-bb02-6750ff434875',
